@@ -2201,7 +2201,7 @@ var links = [
             },
         ],
     },
-    {
+    /*{
         label: "More",
         icon: "MoreIcon",
         items: [
@@ -2211,92 +2211,34 @@ var links = [
             // },
             {
                 label: "Github",
-                href: "https://github.com/safebeez",
+                href: "https://github.com/",
             },
-            /* {
+             {
                 label: "Docs",
-                href: "https://goosedefi.gitbook.io/goose-finance/",
-            }, */
+                href: "https:ance/",
+            },
             {
                 label: "Medium",
-                href: "https://safebeezcrypto.medium.com/",
+                href: "https:m.com/",
             },
         ],
-    },
+    },*/
 ];
 var socials = [
- /*    {
-        label: "Telegram",
-        icon: "TelegramIcon",
-        items: [
-            {
-                label: "English",
-                href: "https://t.me/safebeez",
-            },
-            // {
-            //   label: "Bahasa Indonesia",
-            //   href: "https://t.me/PancakeSwapIndonesia",
-            // },
-            /* {
-                label: "中文",
-                href: "https://t.me/goosefinancechinese",
-            }, */
-            // {
-            //   label: "Tiếng Việt",
-            //   href: "https://t.me/PancakeSwapVN",
-            // },
-           /*  {
-                label: "Italiano",
-                href: "https://t.me/goosefinanceitalian",
-            },
-            {
-                label: "русский",
-                href: "https://t.me/goosefinancerussian",
-            },
-            {
-                label: "Türkiye",
-                href: "https://t.me/GooseFinanceTurkey",
-            },
-            // {
-            //   label: "Português",
-            //   href: "https://t.me/PancakeSwapPortuguese",
-            // },
-            /* {
-                label: "Español",
-                href: "https://t.me/goosefinancespanish",
-            },
-            {
-                label: "日本語",
-                href: "https://t.me/goosefinancejapanese",
-            },
-            {
-                label: "Français",
-                href: "https://t.me/goosefinancefrench",
-            },
-            {
-                label: "Announcements",
-                href: "https://t.me/goosefinanceann",
-            },
-            /* {
-                label: "Price Bot",
-                href: "https://t.me/BinanceRocketEGG",
-            },
-        ],
-    }, */
     {
         label: "Telegram",
         icon: "TelegramIcon",
-        href: "https://t.me/The_Industry_Network_Official",
+        href: "https://t.me/IceBRKROfficial",
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/TheIndstryNtwrk",
+        href: "https://twitter.com/ICEBRKofficial",
     },
     {
         label: "Reddit",
         icon: "RedditIcon",
-        href: "https://www.reddit.com/r/TheIndustryNetwork/",
+        href: "https://www.reddit.com/r/IceBRKofficial/",
     },
  /*    {
         label: 'Email Us',
@@ -2415,11 +2357,11 @@ var Container$4 = styled.div(templateObject_1$C || (templateObject_1$C = __makeT
     return theme.nav.background;
 });
 var PriceLink = styled.a(templateObject_2$c || (templateObject_2$c = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"])));
-var BeePriceLink = styled.a(templateObject_2$c || (templateObject_2$c = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"])));
+var icePriceLink = styled.a(templateObject_2$c || (templateObject_2$c = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"])));
 var SettingsEntry = styled.div(templateObject_3$7 || (templateObject_3$7 = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 8px;\n"], ["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 8px;\n"])), MENU_ENTRY_HEIGHT);
 var SocialEntry = styled.div(templateObject_4$2 || (templateObject_4$2 = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 16px;\n"], ["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 16px;\n"])), MENU_ENTRY_HEIGHT);
 var PanelFooter = function (_a) {
-    var isPushed = _a.isPushed, pushNav = _a.pushNav, toggleTheme = _a.toggleTheme, isDark = _a.isDark, beePriceUsd = _a.beePriceUsd, beePriceLink = _a.beePriceLink, cakePriceUsd = _a.cakePriceUsd, currentLang = _a.currentLang, langs = _a.langs, setLang = _a.setLang, priceLink = _a.priceLink;
+    var isPushed = _a.isPushed, pushNav = _a.pushNav, toggleTheme = _a.toggleTheme, isDark = _a.isDark, icePriceUsd = _a.icePriceUsd, icePriceLink = _a.icePriceLink, cakePriceUsd = _a.cakePriceUsd, currentLang = _a.currentLang, langs = _a.langs, setLang = _a.setLang, priceLink = _a.priceLink;
     if (!isPushed) {
         return (React.createElement(Container$4, null,
             React.createElement(IconButton, { variant: "text", onClick: function () { return pushNav(true); } },
@@ -2427,15 +2369,15 @@ var PanelFooter = function (_a) {
     }
     return (React.createElement(Container$4, null,
         React.createElement(SettingsEntry, null,
-            beePriceUsd ? (React.createElement(BeePriceLink, { href: beePriceLink, target: "_blank" },
+            icePriceUsd ? (React.createElement(icePriceLink, { href: icePriceLink, target: "_blank" },
             React.createElement(Icon$v, { width: "24px", mr: "8px" }),
-            React.createElement(Text, { color: "textSubtle", bold: true }, "TINV  $" + beePriceUsd.toFixed(3)))) : (React.createElement(Skeleton, { width: 160, height: 24 })),
+            React.createElement(Text, { color: "textSubtle", bold: true }, "ICEBRK  $" + icePriceUsd.toFixed(3)))) : (React.createElement(Skeleton, { width: 160, height: 24 })),
         ),
-        React.createElement(SettingsEntry, null,
+/*         React.createElement(SettingsEntry, null,
             cakePriceUsd ? (React.createElement(PriceLink, { href: priceLink, target: "_blank" },
             React.createElement(Icon$va, { width: "24px", mr: "8px" }),
-            React.createElement(Text, { color: "textSubtle", bold: true }, "TINVS  $" + cakePriceUsd.toFixed(3)))) : (React.createElement(Skeleton, { width: 160, height: 24 })),
-        ),
+            React.createElement(Text, { color: "textSubtle", bold: true }, " $" + cakePriceUsd.toFixed(3)))) : (React.createElement(Skeleton, { width: 160, height: 24 })),
+        ), */
         React.createElement(SocialEntry, null,
                 React.createElement(Flex, null, socials.map(function (social, index) {
                 var Icon = Icons$1[social.icon];
@@ -2749,7 +2691,7 @@ var MobileOnlyOverlay = styled(Overlay)(templateObject_5$1 || (templateObject_5$
 });
 var Menu = function (_a) {
     var _b;
-    var account = _a.account, login = _a.login, logout = _a.logout, isDark = _a.isDark, toggleTheme = _a.toggleTheme, langs = _a.langs, setLang = _a.setLang, currentLang = _a.currentLang, beePriceUsd = _a.beePriceUsd, beePriceLink = _a.beePriceLink, cakePriceUsd = _a.cakePriceUsd, links = _a.links, priceLink = _a.priceLink, profile = _a.profile, children = _a.children;
+    var account = _a.account, login = _a.login, logout = _a.logout, isDark = _a.isDark, toggleTheme = _a.toggleTheme, langs = _a.langs, setLang = _a.setLang, currentLang = _a.currentLang, icePriceUsd = _a.icePriceUsd, icePriceLink = _a.icePriceLink, cakePriceUsd = _a.cakePriceUsd, links = _a.links, priceLink = _a.priceLink, profile = _a.profile, children = _a.children;
     var isXl = useMatchBreakpoints().isXl;
     var isMobile = isXl === false;
     var _c = useState(!isMobile), isPushed = _c[0], setIsPushed = _c[1];
@@ -2792,7 +2734,7 @@ var Menu = function (_a) {
                 React.createElement(UserBlock, { account: account, login: login, logout: logout }),
                 profile && React.createElement(Avatar, { profile: profile }))),
         React.createElement(BodyWrapper, null,
-            React.createElement(Panel, { isPushed: isPushed, isMobile: isMobile, showMenu: showMenu, isDark: isDark, toggleTheme: toggleTheme, langs: langs, setLang: setLang, currentLang: currentLang, beePriceUsd: beePriceUsd, beePriceLink: beePriceLink, cakePriceUsd: cakePriceUsd, pushNav: setIsPushed, links: links, priceLink: priceLink }),
+            React.createElement(Panel, { isPushed: isPushed, isMobile: isMobile, showMenu: showMenu, isDark: isDark, toggleTheme: toggleTheme, langs: langs, setLang: setLang, currentLang: currentLang, icePriceUsd: icePriceUsd, icePriceLink: icePriceLink, cakePriceUsd: cakePriceUsd, pushNav: setIsPushed, links: links, priceLink: priceLink }),
             React.createElement(Inner, { isPushed: isPushed, showMenu: showMenu }, children),
             React.createElement(MobileOnlyOverlay, { show: isPushed, onClick: function () { return setIsPushed(false); }, role: "presentation" }))));
 };
