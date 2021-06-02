@@ -5,7 +5,7 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: '/',
+    href: '../',
   },
   {
     label: 'Exchange',
@@ -20,17 +20,21 @@ const config: MenuEntry[] = [
   {
     label: 'Prediction (BETA)',
     icon: 'PredictionsIcon',
-    href: '/prediction',
+    href: '../prediction',
   },
   {
     label: 'Lottery',
     icon: 'TicketIcon',
-    href: '/lottery',
+    href: '../lottery',
   },
   {
     label: 'Info',
     icon: 'InfoIcon',
     items: [
+      {
+        label: 'IceBreak-R Chart on DexTools',
+        href: 'https://www.dextools.io/app/pancakeswap/pair-explorer/0xaabcac4b236d1a7290fb05234862348d274621cf',
+      },
       {
         label: 'IceBreak-R on PancakeSwap',
         href: 'https://pancakeswap.info/token/'.concat(ICEBRK.address),
