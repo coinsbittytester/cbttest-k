@@ -1,40 +1,9 @@
-# 🥞 Pancake UIkit
+# 🥞 Pancake Swap Exchange
 
-[![Version](https://img.shields.io/npm/v/@pancakeswap-libs/uikit)](https://www.npmjs.com/package/@pancakeswap-libs/uikit) [![Size](https://img.shields.io/bundlephobia/min/@pancakeswap-libs/uikit)](https://www.npmjs.com/package/@pancakeswap-libs/uikit)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c6ef7e73-4a84-410d-83b0-b89326787dff/deploy-status)](https://app.netlify.com/sites/swap-master/deploys)
 
-Pancake UIkit is a set of React components and hooks used to build pages on Pancake's apps. It also contains a theme file for dark and light mode.
+[PancakeSwap](https://pancakeswap.finance/) is an automated market maker (“**AMM**”) that allows two tokens to be exchanged on the [Binance Smart Chain](https://www.binance.org/en/smartChain) (BSC). It is fast, cheap, and allows anyone to participate.
 
-## Install
+This repo is responsible for the **exchange** interface of the AMM: [exchange.pancakeswap.finance](https://exchange.pancakeswap.finance/)
 
-`yarn add @pancakeswap-libs/uikit`
-
-## Setup
-
-### Theme
-
-Before using Pancake UIkit, you need to provide the theme file to styled-component.
-
-```
-import { ThemeProvider } from 'styled-components'
-import { light, dark } from '@pancakeswap-libs/uikit'
-...
-<ThemeProvider theme={isDark}>...</ThemeProvider>
-```
-
-### Reset
-
-A reset CSS is available as a global styled component.
-
-```
-import { ResetCSS } from '@pancakeswap-libs/uikit'
-...
-<ResetCSS />
-```
-
-### Types
-
-This project is built with Typescript and export all the relevant types.
-
-## How to use the UIkit
-
-If you want to use components from the UIkit, check the [Storybook documentation](https://pancakeswap.github.io/pancake-uikit/)
+If you want to contribute, please refer to the [contributing guidelines](./CONTRIBUTING.md) of this project.
