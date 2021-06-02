@@ -5,7 +5,7 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: '../',
+    href: '../../',
   },
   {
     label: 'Exchange',
@@ -20,12 +20,12 @@ const config: MenuEntry[] = [
   {
     label: 'Prediction (BETA)',
     icon: 'PredictionsIcon',
-    href: '../prediction',
+    href: '../../prediction',
   },
   {
     label: 'Lottery',
     icon: 'TicketIcon',
-    href: '../lottery',
+    href: '../../lottery',
   },
   {
     label: 'Info',
