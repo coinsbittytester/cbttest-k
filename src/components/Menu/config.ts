@@ -5,10 +5,10 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: '../../',
+    href: 'https://coinsbittytester.github.io/',
   },
   {
-    label: 'Exchange',
+    label: 'Swap',
     icon: 'TradeIcon',
     href: '/swap?inputCurrency=BNB&outputCurrency=0xaabcac4b236d1a7290fb05234862348d274621cf',
   },
@@ -20,12 +20,12 @@ const config: MenuEntry[] = [
   {
     label: 'Prediction (BETA)',
     icon: 'PredictionsIcon',
-    href: '../../prediction',
+    href: 'https://coinsbittytester.github.io/prediction',
   },
   {
     label: 'Lottery',
     icon: 'TicketIcon',
-    href: '../../lottery',
+    href: 'https://coinsbittytester.github.io/lottery',
   },
   {
     label: 'Info',
