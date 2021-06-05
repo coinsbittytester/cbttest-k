@@ -8,15 +8,15 @@ import useGetPriceData from 'hooks/useGetPriceData'
 import useGetLocalProfile from 'hooks/useGetLocalProfile'
 import useAuth from 'hooks/useAuth'
 import links from './config'
-import { ICEBRK } from '../../constants'
 
 const Menu: React.FC = (props) => {
+  const { priceIce, data } = useGetPriceData()
+
   const { account } = useWeb3React()
   const { login, logout } = useAuth()
   const { selectedLanguage, setSelectedLanguage } = useContext(LanguageContext)
   const { isDark, toggleTheme } = useTheme()
-  const priceData = useGetPriceData()
-  const cakePriceUsd = priceData ? Number(priceData.data[ICEBRK.address].price)*1e9 : undefined
+  // const cakePriceUsd = priceData ? Number(priceData.data[ICEBRK.address].price)*1e9 : undefined
   const profile = useGetLocalProfile()
 
   return (
@@ -30,7 +30,7 @@ const Menu: React.FC = (props) => {
       currentLang={selectedLanguage?.code || ''}
       langs={allLanguages}
       setLang={setSelectedLanguage}
-      cakePriceUsd={cakePriceUsd}
+      cakePriceUsd={priceIce}
       /* profile={profile} */
       {...props}
     />

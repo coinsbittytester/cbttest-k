@@ -1,4 +1,8 @@
 import { useEffect, useState } from 'react'
+import { ICEBRK, BUSD } from '../constants'
+import { useTradeExactIn } from './Trades'
+import { useToken } from './Tokens'
+import { tryParseAmount } from '../state/swap/hooks'
 
 type ApiResponse = {
   updated_at: string
@@ -15,6 +19,15 @@ type ApiResponse = {
 const api = 'https://api.pancakeswap.info/api/v2/tokens/'
 
 const useGetPriceData = () => {
+  const iceBrk = useToken(ICEBRK.address)
+  const busd = useToken(BUSD.address)
+  const parsedAmt = tryParseAmount("1000000000", iceBrk ?? undefined)
+  /* console.log(parsedAmt) */
+  const trade = useTradeExactIn(parsedAmt, busd ?? undefined)
+  /* console.log(trade) */
+  const priceIce = trade ? trade.outputAmount.numerator[1] / trade.outputAmount.denominator[1] : 0
+  /* console.log(priceIce) */
+
   const [data, setData] = useState<ApiResponse | null>(null)
 
   useEffect(() => {
@@ -32,7 +45,7 @@ const useGetPriceData = () => {
     fetchData()
   }, [setData])
 
-  return data
+  return { priceIce, data }
 }
 
 export default useGetPriceData
